@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 def mbb(uploaded_file):
-     api_key = "818541a585bc6be87c901ee2087bfe6b"
+     api_key = ""
      url = "https://api.imgbb.com/1/upload"
      payload = {
                   "key":"api_key",
